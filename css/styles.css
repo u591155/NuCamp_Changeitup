@@ -1,9 +1,12 @@
+html{
+    background-color: black;
+}
 body {
     font-family: "Open Sans", sans-serif;
     background-image: url(../img/abstract2.jpg);
-    background-size: inherit;
-    background-attachment: fixed;  
-    bac 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
 }
 
 img:hover{
@@ -49,13 +52,13 @@ a{
 .site-footer {
     background-image: linear-gradient(#05162F, #000220);
     padding: 20px 0;
+    /* position: fixed; */
 }
 
 .jumbotron {
     margin: 0px;
     padding: 30px;
     background-image: linear-gradient(#05162F, #000220);
-    color: white;
 }
 
 .row-content{
@@ -94,6 +97,10 @@ label{
     color: white;
 }
 
-.rsvp{
-    
+.bg-personal1{
+    background-color: #04122C;
+}
+
+.bg-personal2{
+    background-color: #002B41;
 }
